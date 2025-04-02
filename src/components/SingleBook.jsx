@@ -18,7 +18,7 @@ class SingleBook extends Component {
       <Card
         onClick={this.toggleSelected}
         style={{
-          border: selected ? "3px solid red" : "1px solid lightgray",
+          border: selected ? "3px solid red" : "1px solid black",
           cursor: "pointer",
         }}
         className="mb-3"
